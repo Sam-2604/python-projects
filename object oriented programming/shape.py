@@ -25,8 +25,7 @@ class Rectangle(Shape):
         return f"A {self.color} rectangle: {self.width}x{self.height}, area {self.area():.2f}"
     
     def area(self):
-        self.area_rect = self.width * self.height
-        return self.area_rect
+        return self.width * self.height
     
     def __add__(self, other):
         return Rectangle(self.color, self.width + other.width, self.height)
@@ -40,8 +39,7 @@ class Circle(Shape):
         return f"A {self.color} circle: radius {self.radius}, area {self.area():.2f}"
     
     def area(self):
-        self.area_circle = math.pi * self.radius * self.radius
-        return self.area_circle
+        return math.pi * self.radius * self.radius
     
 def main():
     x = Rectangle("blue", 2, 3)
