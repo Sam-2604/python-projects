@@ -1,9 +1,7 @@
 # THE MEDICATION GUIDE
-  #### Video Demo:  <URL HERE>
-
-  #### Contents:
-  # The Medication Guide
   A batch-processing CLI tool that extracts safety-critical information for multiple medications using the openFDA API.
+  
+  #### Video Demo:  <URL HERE>
 
   ## Description
   The Medication Guide solves a common accessibility issue found on official medical databases. While the U.S. Food and Drug Administration (FDA) maintains extensive records, the official website (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm) lacks a streamlined way for consumers to quickly cross-reference multiple medications. Platforms like DailyMed offer comprehensive data but require users to search for each medication individually, which can be time-consuming and overwhelming.
